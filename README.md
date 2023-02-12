@@ -1,28 +1,27 @@
-<div align="center" id="top"> 
-  <img src="./.github/banner-reactJS.png" alt=" Criando Hook de carrinho de compra" />
+<div align="center" id="top">
+  <img src="./.github/assets/cover.png" alt=" Criando Hook de carrinho de compra" />
 
-  &#xa0;
+&#xa0;
 
 </div>
 
 <h1 align="center">ROCKETSHOES - Criando Hook de carrinho de compra</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=04D361&labelColor=000000?color=04D361&style=for-the-badge" alt="PRs welcome!" />
-<img  alt="Repo size"  src="https://img.shields.io/github/repo-size/thiilins/criando-hook-carrinho-de-compra?color=04D361&style=for-the-badge">
-<img  alt="GitHub top language"  src="https://img.shields.io/github/languages/top/thiilins/criando-hook-carrinho-de-compra?color=04d361&style=for-the-badge"> <img  alt="GitHub language count"  src="https://img.shields.io/github/languages/count/thiilins/criando-hook-carrinho-de-compra?color=04d361&style=for-the-badge"><img alt="Licença" src="https://img.shields.io/github/license/thiilins/criando-hook-carrinho-de-compra?color=04d361&style=for-the-badge">
+  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=for-the-badge&color=FF5858" alt="PRs welcome!" />
+<img  alt="Repo size"  src="https://img.shields.io/github/repo-size/thiilins/criando-hook-carrinho-de-compra?style=for-the-badge&color=FF5858">
+<img  alt="GitHub top language"  src="https://img.shields.io/github/languages/top/thiilins/criando-hook-carrinho-de-compra?style=for-the-badge&color=FF5858"> <img  alt="GitHub language count"  src="https://img.shields.io/github/languages/count/thiilins/criando-hook-carrinho-de-compra?style=for-the-badge&color=FF5858"><img alt="Licença" src="https://img.shields.io/github/license/thiilins/criando-hook-carrinho-de-compra?style=for-the-badge&color=FF5858">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/thiilins/criando-hook-carrinho-de-compra?color=04d361&style=for-the-badge" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/thiilins/criando-hook-carrinho-de-compra?style=for-the-badge&color=FF5858" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/thiilins/criando-hook-carrinho-de-compra?color=04d361&style=for-the-badge" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/thiilins/criando-hook-carrinho-de-compra?style=for-the-badge&color=FF5858" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/thiilins/criando-hook-carrinho-de-compra?color=04d361&style=for-the-badge" /> -->
-
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/thiilins/criando-hook-carrinho-de-compra?style=for-the-badge&color=FF5858" /> -->
 
 </p>
 
 <p align="center">
-  <a href="#dart-sobre-o-desafio">Sobre</a> &#xa0; | &#xa0; 
+  <a href="#dart-sobre-o-desafio">Sobre</a> &#xa0; | &#xa0;
    <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-pré-requesitos">Pré requisitos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
@@ -30,17 +29,8 @@
   <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
   <a href="https://github.com/thiilins" target="_blank">Autor</a>
 </p>
- 
- &#xa0;
 
- <p align="center">
- <img src="./.github/app-preview.gif" alt="Criando Hook de carrinho de compra" />
- </p>
-<br>
-
-&#xa0; 
-
-## :dart: Sobre o desafio ##
+## :dart: Sobre o desafio
 
 Desafio 1 do módulo 2 da trilha de ReactJS da Rocketseat, essa será uma aplicação onde o seu principal objetivo é criar um hook de carrinho de compras. Você terá acesso a duas páginas, um componente e um hook para implementar as funcionalidades pedidas nesse desafio:
 
@@ -52,9 +42,9 @@ Desafio 1 do módulo 2 da trilha de ReactJS da Rocketseat, essa será uma apli
 - Exibição de mensagens de erro;
 - Entre outros.
 
-&#xa0; 
+&#xa0;
 
-## :rocket: Tecnologias ##
+## :rocket: Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -63,15 +53,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-&#xa0; 
+&#xa0;
 
-## :white_check_mark: Pré requisitos ##
+## :white_check_mark: Pré requisitos
 
 Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
 
-&#xa0; 
+&#xa0;
 
-## :checkered_flag: Começando ##
+## :checkered_flag: Começando
 
 ```bash
 # Clone este repositório
@@ -88,8 +78,8 @@ $ yarn start
 
 # O app vai inicializar em <http://localhost:3000>
 ```
- 
-&#xa0; 
+
+&#xa0;
 
 ## :thinking: Como contribuir
 
@@ -100,15 +90,14 @@ $ yarn start
 
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-## :memo: Licença ##
+## :memo: Licença
 
 Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-&#xa0; 
+&#xa0;
 
 Feito com :heart: por <a href="https://github.com/thiilins" target="_blank">Thiago Lins</a>
 
 &#xa0;
-
 
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
