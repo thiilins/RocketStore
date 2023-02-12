@@ -1,5 +1,5 @@
 <div align="center" id="top">
-  <img src="./.github/assets/cover.png" alt=" Criando Hook de carrinho de compra" />
+  <!-- <img src="./.github/assets/cover.png" alt=" Criando Hook de carrinho de compra" /> -->
 
 &#xa0;
 
@@ -9,14 +9,14 @@
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=for-the-badge&color=FF5858" alt="PRs welcome!" />
-<img  alt="Repo size"  src="https://img.shields.io/github/repo-size/thiilins/criando-hook-carrinho-de-compra?style=for-the-badge&color=FF5858">
-<img  alt="GitHub top language"  src="https://img.shields.io/github/languages/top/thiilins/criando-hook-carrinho-de-compra?style=for-the-badge&color=FF5858"> <img  alt="GitHub language count"  src="https://img.shields.io/github/languages/count/thiilins/criando-hook-carrinho-de-compra?style=for-the-badge&color=FF5858"><img alt="Licença" src="https://img.shields.io/github/license/thiilins/criando-hook-carrinho-de-compra?style=for-the-badge&color=FF5858">
+<img  alt="Repo size"  src="https://img.shields.io/github/repo-size/thiilins/RocketStore?style=for-the-badge&color=FF5858">
+<img  alt="GitHub top language"  src="https://img.shields.io/github/languages/top/thiilins/RocketStore?style=for-the-badge&color=FF5858"> <img  alt="GitHub language count"  src="https://img.shields.io/github/languages/count/thiilins/RocketStore?style=for-the-badge&color=FF5858"><img alt="Licença" src="https://img.shields.io/github/license/thiilins/RocketStore?style=for-the-badge&color=FF5858">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/thiilins/criando-hook-carrinho-de-compra?style=for-the-badge&color=FF5858" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/thiilins/RocketStore?style=for-the-badge&color=FF5858" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/thiilins/criando-hook-carrinho-de-compra?style=for-the-badge&color=FF5858" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/thiilins/RocketStore?style=for-the-badge&color=FF5858" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/thiilins/criando-hook-carrinho-de-compra?style=for-the-badge&color=FF5858" /> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/thiilins/RocketStore?style=for-the-badge&color=FF5858" /> -->
 
 </p>
 
@@ -65,7 +65,7 @@ Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.co
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/thiilins/criando-hook-carrinho-de-compra
+$ git clone https://github.com/thiilins/RocketStore
 
 # Entre na pasta
 $ cd criando-hook-carrinho-de-compra
