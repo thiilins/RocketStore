@@ -10,8 +10,7 @@ export default createGlobalStyle`
   }
 
   body {
-    min-width: 100vw;
-    min-height: 100vh;
+
     background: #191920 url("/assets/background.svg") no-repeat center top;
     -webkit-font-smoothing: antialiased;
   }
