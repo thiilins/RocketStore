@@ -8,15 +8,7 @@
 <h1 align="center">ROCKETSHOES - Criando Hook de carrinho de compra</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=for-the-badge&color=FF5858" alt="PRs welcome!" />
-
-<img  alt="Repo size"  src="https://img.shields.io/github/repo-size/thiilins/RocketStore?style=for-the-badge&color=FF5858">
-
-<img  alt="GitHub top language"  src="https://img.shields.io/github/languages/top/thiilins/RocketStore?style=for-the-badge&color=FF5858">
-
-<img  alt="GitHub language count"  src="https://img.shields.io/github/languages/count/thiilins/RocketStore?style=for-the-badge&color=FF5858">
-
-<img alt="Licença" src="https://img.shields.io/github/license/thiilins/RocketStore?style=for-the-badge&color=FF5858">
+  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=for-the-badge&color=FF5858" alt="PRs welcome!" /><img  alt="Repo size"  src="https://img.shields.io/github/repo-size/thiilins/RocketStore?style=for-the-badge&color=FF5858"><img  alt="GitHub top language"  src="https://img.shields.io/github/languages/top/thiilins/RocketStore?style=for-the-badge&color=FF5858"><img  alt="GitHub language count"  src="https://img.shields.io/github/languages/count/thiilins/RocketStore?style=for-the-badge&color=FF5858"><img alt="Licença" src="https://img.shields.io/github/license/thiilins/RocketStore?style=for-the-badge&color=FF5858">
 
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/thiilins/RocketStore?style=for-the-badge&color=FF5858" /> -->
 
