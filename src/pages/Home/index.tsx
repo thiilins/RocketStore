@@ -1,55 +1,48 @@
-import React, { useState, useEffect } from "react";
-import { MdAddShoppingCart } from "react-icons/md";
+import React, { useState, useEffect } from 'react'
+import { MdAddShoppingCart } from 'react-icons/md'
+import { ProductList } from './styles'
+import { useProduct } from '@contexts/ProductContext'
+import { formatPrice } from '@/utils/format'
+import { useCart } from '@hooks/useCart'
+import { IProductProps } from '@/types/products'
 
-import { ProductList } from "./styles";
-import { api } from "../../services/api";
-import { formatPrice } from "../../util/format";
-import { useCart } from "../../hooks/useCart";
-
-interface Product {
-  id: number;
-  title: string;
-  price: number;
-  image: string;
+interface IProductFormatted extends IProductProps {
+  priceFormatted: string
 }
 
-interface ProductFormatted extends Product {
-  priceFormatted: string;
+interface ICartItemsAmount {
+  [key: number]: number
 }
 
-interface CartItemsAmount {
-  [key: number]: number;
-}
-
-const Home = (): JSX.Element => {
-  const [products, setProducts] = useState<ProductFormatted[]>([]);
-  const { addProduct, cart } = useCart();
-  // Calculando itens por produto disponível no carrinho (anterior, atual)
+const Home: React.FC = () => {
+  const { products: ProductData } = useProduct()
+  const [products, setProducts] = useState<IProductFormatted[]>([])
+  const { addProduct, cart } = useCart()
   const cartItemsAmount = cart.reduce((sumAmount, product) => {
-    const newSumAmount = { ...sumAmount };
-    newSumAmount[product.id] = product.amount;
-    return newSumAmount;
-  }, {} as CartItemsAmount);
+    const newSumAmount = { ...sumAmount }
+    newSumAmount[product.id] = product.amount
+    return newSumAmount
+  }, {} as ICartItemsAmount)
 
   useEffect(() => {
     async function loadProducts() {
-      const response = await api.get<Product[]>("products");
-      const data = response.data.map((product) => ({
+      const data = ProductData.map((product: IProductProps) => ({
         ...product,
-        priceFormatted: formatPrice(product.price),
-      }));
-      setProducts(data);
+        priceFormatted: formatPrice(product.price)
+      }))
+      setProducts(data)
     }
-    loadProducts();
-  }, []);
+    loadProducts()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   function handleAddProduct(id: number) {
-    addProduct(id);
+    addProduct(id)
   }
 
   return (
     <ProductList>
-      {products.map((product) => {
+      {products.map(product => {
         return (
           <li key={product.id}>
             <img src={product.image} alt={product.title} />
@@ -58,8 +51,7 @@ const Home = (): JSX.Element => {
             <button
               type="button"
               data-testid="add-product-button"
-              onClick={() => handleAddProduct(product.id)}
-            >
+              onClick={() => handleAddProduct(product.id)}>
               <div data-testid="cart-product-quantity">
                 <MdAddShoppingCart size={16} color="#FFF" />
                 {cartItemsAmount[product.id] || 0}
@@ -68,10 +60,10 @@ const Home = (): JSX.Element => {
               <span>ADICIONAR AO CARRINHO</span>
             </button>
           </li>
-        );
+        )
       })}
     </ProductList>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

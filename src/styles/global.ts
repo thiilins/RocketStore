@@ -1,7 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
-import 'react-toastify/dist/ReactToastify.css';
-
-import background from '../assets/images/background.svg';
+import { createGlobalStyle } from 'styled-components'
+import 'react-toastify/dist/ReactToastify.css'
 
 export default createGlobalStyle`
   * {
@@ -12,12 +10,14 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #191920 url(${background}) no-repeat center top;
+    min-width: 100vw;
+    min-height: 100vh;
+    background: #191920 url("/assets/background.svg") no-repeat center top;
     -webkit-font-smoothing: antialiased;
   }
 
   body, input, button {
-    font: 14px Roboto, sans-serif;
+    font: 14px 'Roboto', sans-serif;
   }
 
   #root {
@@ -29,4 +29,4 @@ export default createGlobalStyle`
   button {
     cursor: pointer;
   }
-`;
+`
